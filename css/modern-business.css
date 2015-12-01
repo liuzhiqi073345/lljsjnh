@@ -1,0 +1,182 @@
+/*!
+ * Start Bootstrap - Modern Business HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 450px;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+/* Footer Styles */
+
+footer {
+    margin: 50px 0;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
+
+/* 自定义css */
+/* footer文字居中 */
+.text-center {
+    text-align: center;
+}
+
+/* 滚动图片top-marging*/
+.carousel-inner {
+    margin-top: 15px;
+}
+
+/* 页面主标题距离顶部高度 */
+/*.page-header {
+    margin-top: 75px;
+}*/
+.page-header-custom {
+    margin-top: 85px;
+}
+
+/* 大图距离分割线的高度 */
+.img-custom {
+    margin-top: 25px;
+}
+
+/* 全局字体 */
+* {
+    font-family: -apple-system, "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", "Source Han Sans SC", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+}
+
+/* 滚动框字幕位置 */
+.carousel-caption {
+    padding-bottom: 60px;
+}
+
+/* 滚动框字幕字体大小 */
+.carousel-caption-h1 {
+    font-size: 56px;
+    margin-bottom: 45px;
+}
+.carousel-caption-p {
+    font-size: 20px;
+}
+
+/* 正文字号 */
+body {
+    font-size: 16px;
+}
+
+/* 顶部nav高度，当手机访问时使用 */
+.navbar {
+    min-height: 65px;
+}
+
+/* 页面主标题下划线粗细 */
+.page-header {
+    border-bottom: 2px solid #E1E1E1;
+}
+
+/* 文本两端对齐 */
+/*p {
+    text-align:justify;
+    text-align-last:justify;
+}*/
+.coltu1 ul li{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 2px;
+    width: 55%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 2px;
+}
+.coltu1{
+    align:center;
+    width:34%;
+    float:left;
+    height:200px;
+
+}
+.coltu2{
+    width:40%;
+    float:left;
+    height:600px;
+    padding-left: 36px;
+}
+.coltu2 h2{
+    margin-left: 73px;
+}
